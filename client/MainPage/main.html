@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroBook - Main Page</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="/client/app1.js"></script>
+    <script src="/libs/axios.js"></script>
+    <script src="/libs/vue.js"></script>
+</head>
+<body>
+    <div id="app" class="app">
+        <div class="search-box">
+            <label for="departure">Departure:</label>
+            <input v-model="departure" type="text" placeholder="Your City">
+
+            <label for="arrival">Destination:</label>
+            <input v-model="arrival" type="text" placeholder="Destination">
+
+            <label for="departure-date">Departure Date:</label>
+            <input v-model="departureDate" type="date" id="departure-date" name="departure-date" required>
+
+            <label for="arrival-date">Arrival Date:</label>
+            <input v-model="arrivalDate" type="date" id="arrival-date" name="arrival-date" required>
+
+            <button @click="searchFlights">Search Flights</button>
+        </div>
+        <h1>{{ message }}</h1>
+    </div>
+</body>
+</html>
