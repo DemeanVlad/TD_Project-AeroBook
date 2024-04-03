@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "departure": "New York",
+        "destination": "London",
+        "departureDate": "2024-04-10",
+        "departureTime": "09:00",
+        "arrivalDate": "2024-04-10",
+        "arrivalTime": "13:00",
+        "price": 300
+    },
+    {
+        "id": 2,
+        "departure": "Los Angeles",
+        "destination": "Paris",
+        "departureDate": "2024-04-12",
+        "departureTime": "12:00",
+        "arrivalDate": "2024-04-12",
+        "arrivalTime": "20:00",
+        "price": 450
+    },
+    {
+        "id": 3,
+        "departure": "London",
+        "destination": "New York",
+        "departureDate": "2024-04-15",
+        "departureTime": "10:00",
+        "arrivalDate": "2024-04-15",
+        "arrivalTime": "14:00",
+        "price": 320
+    },
+    {
+        "id": 4,
+        "departure": "Paris",
+        "destination": "Los Angeles",
+        "departureDate": "2024-04-17",
+        "departureTime": "11:30",
+        "arrivalDate": "2024-04-17",
+        "arrivalTime": "19:30",
+        "price": 480
+    }
+]
